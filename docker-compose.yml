@@ -1,0 +1,6 @@
+services:
+  deepfake:
+    build: .
+    tty: true
+    volumes:
+      - ./roop:/home/myuser/roop
