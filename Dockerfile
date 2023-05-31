@@ -8,6 +8,10 @@ RUN apt-get update && \
 # Set the working directory in the container
 WORKDIR /home/myuser/roop
 
-RUN pip install -r requirements.txt
+COPY ./roop /home/myuser/roop
+
+# RUN pip install -r requirements.txt
+
+RUN pip install onnxruntime
 
 CMD ["tail", "-f", "/dev/null"]
