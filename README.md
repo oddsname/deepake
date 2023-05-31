@@ -1,3 +1,5 @@
+repo: github.com/s0md3v/roop
+
 Download this file https://drive.google.com/file/d/1eu60OrRtn4WhKrzM4mQv4F3rIuyUXqfl/view?usp=drive_link and copy it inside roop directory
 ```
 docker-compose build
